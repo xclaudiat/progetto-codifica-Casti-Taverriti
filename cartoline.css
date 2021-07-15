@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: rgba(251, 171, 171, 0.5);
+}
+
+.colorato {
+    color: #57292c;
+}
+
+#testo {
+    line-height: 95%;
+    width: 80%;
+}
+
+h1 {
+    font-family: 'Zen Loop', cursive;
+    background-color: #a55f64;
+	color: #ffffff;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+
+.riquadri {
+
+    background-color: #a55f64;
+	color: #ffffff;
+    max-width: 30%;
+    margin-left:1.5%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border-radius: 20px;
+}
+
+#contenitoreCartoline {
+
+    margin-top: 50%;
+}
+
+.dettCartolina {
+
+    background-color: #a55f64;
+	color: #ffffff;
+    width: 30%;
+    margin-left:1.5%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border-radius: 20px;
+}
+
+.contImmagini {
+    margin-top: 30%;
+    margin-bottom: 4%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img {
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 3%;
+    vertical-align: middle;
+}
+
+.contTesto {
+    background-color: #a55f64;
+	color: #ffffff;
+    width: 75%;
+    margin-left: 12%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    padding-top: 0.2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    border-radius: 20px;
+}

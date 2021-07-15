@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina218">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Donna con cani - Edizione digitale</title>
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <name xml:id="GiC">Giulia Casti</name>
+                    <name xml:id="CT">Claudia Taverriti</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune" xml:id="SP">Comune di La Spezia</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Informatica Umanistica, corso di Laurea di Informatica Umanistica, Università di Pisa
+                    <date>2018</date>
+                </edition>
+                
+                
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+				
+                <respStmt>
+                    <resp>Compilatore:</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+					<name ref="#GiC">Giulia Casti</name>
+					<name ref="#CT">Claudia Taverriti</name>
+                </respStmt>
+				
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+				
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <notesStmt>
+			<note>Sul retro troviamo "Proprietà artistica riservata - Uff.Rev. Stampa N 2067 - Milano"</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>                    
+                    <title type="custom" resp="#ES">[Donna con cani]</title>
+                    <publisher>Ufficio Revisione</publisher>
+                    <pubPlace>Milano</pubPlace>
+                    <date>1917</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno>7694_218_001/002</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                <condition>Buona</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+					<placeName ref="#MO">Modena</placeName>
+                    <date type="writing" when="1917-10-24">24/10/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Una donna accarezza due cani al suo fianco</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>   
+    </teiHeader>
+	
+	
+    <text type="cartolina" xml:id="cartolina218">
+        <body>
+            <div type="fronte">
+                <figure>
+                    <pb facs="#frontesurface2" n="1" xml:id="frontecartolina2"/>
+                    <figDesc facs="#zona2.1">Una donna accarezza due cani al suo fianco</figDesc>
+                    <head>Donna con cani</head>
+					<signed>Monestier</signed>
+                </figure>
+                <div type="message">
+                    <p><lb facs="#zona2.2" /> Sii buona<pc type="comma">,</pc> sempre 
+                        <lb facs="#zona2.3" />Un bacio
+                    </p>
+                    <lb facs="#zona2.4" /><signed rend="underline">tuo <persName ref="#GC">Giovanni</persName></signed>
+                </div>
+            </div>
+            <div type="retro">
+                <pb facs="#retrosurface2" n="2" xml:id="retrocartolina2" />
+                <div type="message">
+                    <opener>
+                        <lb facs="#zona2.5" />
+                        <dateline>
+                            <placeName  ref="#MO"> Modena<pc type="comma">,</pc></placeName>
+                            <distinct type="forma_desueta">li</distinct>
+                            <date when="1917-10-24">24<pc>/</pc>10<pc>-</pc>17</date>
+                        </dateline>
+                        <lb  facs="#zona2.6"/>
+                        <salute><persName ref="#OT">Oliva</persName> mia<pc type="comma">,</pc></salute>
+                    </opener>
+                    <div xml:id="body_testo">
+                        <p>
+                            <lb facs="#zona2.7" />Le tue buone parole<pc type="comma">,</pc> il tuo ricordo affettuoso
+                            <lb facs="#zona2.8" /> mi sono tanto d<pc type="apostrophe">'</pc>aiuto<pc type="period">.</pc> È il tuo amore
+                            <lb facs="#zona2.9" /> il centro vitale delle mie aspirazioni<pc type="comma">,</pc> la <w>promes<pc force="inter">-</pc>
+                            <lb facs="#zona2.10" break="no" rend="double stroke" />sa</w> delle mie gioie<pc type="comma">,</pc> la palestra dei miei <distinct type="forma_desueta">sacrifi<pc force="inter">-</pc>
+                            <lb facs="#zona2.11"  break="no" rend="" />zi</distinct> ed io Oliva mia te ne sono riconoscente
+                            <lb facs="#zona2.12" /> ricambiando con pari affetto<pc type="comma">,</pc> con ardente
+                            <lb facs="#zona2.13" /> amore purissimo<pc type="comma">,</pc> con forza di sentimenti<pc type="comma">,</pc>
+                        </p>
+                    </div>
+                    <closer>
+                        <signed facs="#zona2.14"> in eterno tuo <persName ref="#GC" rend="underline">Giovanni</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="frontesurface2" start="#frontecartolina2">
+            <graphic url='7694-218F.jpg' width='350px' height='545px' />
+            <!--immagine:-->
+            <zone ulx="9" uly="23" lrx="345" lry="380" rendition="HotSpot" xml:id="zona2.1"/>
+            <!--righe:-->
+            <zone ulx="8" uly="347" lrx="344" lry="432" rendition="Line" xml:id="zona2.2"/>
+            <zone ulx="31" uly="437" lrx="293" lry="485" rendition="Line" xml:id="zona2.3"/>
+            <zone ulx="22" uly="487" lrx="325" lry="530" rendition="Line" xml:id="zona2.4"/>
+        </surface>
+
+        <surface xml:id="retrosurface2" start="#retrocartolina2">
+            <graphic url='7694-218R.jpg' width='545px' height='350px' />
+            <!--data -->
+            <zone ulx="265" uly="4" lrx="476" lry="39" rendition="Line" xml:id="zona2.5"/>
+            <!--righe:-->
+            <zone ulx="38" uly="19" lrx="266" lry="67" rendition="Line" xml:id="zona2.6"/>
+            <zone ulx="17" uly="60" lrx="529" lry="104" rendition="Line" xml:id="zona2.7"/>
+            <zone ulx="15" uly="101" lrx="530" lry="138" rendition="Line" xml:id="zona2.8"/>
+            <zone ulx="12" uly="133" lrx="542" lry="167" rendition="Line" xml:id="zona2.9"/>
+            <zone ulx="4" uly="165" lrx="541" lry="201" rendition="Line" xml:id="zona2.10"/>
+            <zone ulx="3" uly="204" lrx="531" lry="233" rendition="Line" xml:id="zona2.11"/>
+            <zone ulx="10" uly="239" lrx="532" lry="264" rendition="Line" xml:id="zona2.12"/>
+            <zone ulx="17" uly="274" lrx="540" lry="307" rendition="Line" xml:id="zona2.13"/>
+            <zone ulx="13" uly="305" lrx="514" lry="347" rendition="Line" xml:id="zona2.14"/>
+        </surface>
+    </facsimile>
+</TEI>

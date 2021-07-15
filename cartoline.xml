@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt xml:id="titleStmt">
+            <title>Cartoline - Edizione Digitale</title>
+            <respStmt>
+               <resp>Trascritto da:</resp>
+               <name xml:id="GiC">Giulia Casti</name>
+                <name xml:id="CT">Claudia Taverriti</name>
+            </respStmt>
+
+            <respStmt>
+                <resp>Ente di Appartenenza:</resp>
+                <name type="comune" xml:id="SP">Comune di La Spezia</name>
+            </respStmt>
+         </titleStmt>
+
+         <editionStmt xml:id="editionStmt">
+            <edition>
+                Studenti di Informatica Umanistica, corso di Laurea di Informatica Umanistica, Università di Pisa
+               <date when="2018">2018</date>
+            </edition>
+
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <name xml:id="TC">Tommaso Castagneto</name>
+            </respStmt>
+            
+            <respStmt>
+               <resp>Compilatore:</resp>
+               <name ref="TC">Tommaso Castagneto</name>
+                <name ref="#GiC">Giulia Casti</name>
+                <name ref="#CT">Claudia Taverriti</name>
+            </respStmt>
+
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <name xml:id="GP">Giacomo Paolicchi</name>
+               <name xml:id="ES">Enrica Salvatori</name>
+            </respStmt>
+
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <name xml:id="ER">Marzia Ratti</name>
+            </respStmt>
+         </editionStmt>
+
+         <publicationStmt xml:id="publicationStmt">
+            <publisher>Unipi</publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>LabCD</distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>Pisa</addrLine>
+            </address>
+         </publicationStmt>
+        
+         <sourceDesc>
+            <msDesc xml:id="msDesc">
+                <msIdentifier>
+                    <country>Italia</country>
+                    <settlement>La Spezia (SP)</settlement>
+                    <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina108.xml">
+      <xi:fallback />
+   </xi:include>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina182.xml">
+      <xi:fallback />
+   </xi:include>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina218.xml">
+      <xi:fallback />
+   </xi:include>
+</teiCorpus>

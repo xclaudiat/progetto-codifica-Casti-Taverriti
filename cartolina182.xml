@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina182">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>               
+                <title>Donna che legge una lettera - Edizione digitale</title>
+                <respStmt>
+                    <resp>Trascritto da:</resp> 
+                    <name xml:id="GiC">Giulia Casti</name>
+                    <name xml:id="CT">Claudia Taverriti</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune" xml:id="SP">Comune di La Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Informatica Umanistica, corso di Laurea di Informatica Umanistica, Università di Pisa
+                    <date>2018</date>
+                </edition>
+                
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+               
+                <respStmt>
+                    <resp>Compilatore:</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+					<name ref="#GiC">Giulia Casti</name>
+                    <name ref="#CT">Claudia Taverriti</name>
+                </respStmt>
+				
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+				
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note>Sul retro troviamo la stampa "Vistato dall'Ufficio Revisione Stampa di Milano N 689"</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="#ES">[Donna che legge una lettera]</title>
+                    <publisher>Ufficio Revisione</publisher>
+                    <pubPlace>Milano</pubPlace>
+                    <date>1917</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno>7694_182_001/002</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                <condition>Buona</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+
+                <listPerson>
+					<person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>	
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+					<date type="writing" when="1917-11-03">03/11/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Una donna legge una lettera alla scrivania</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <text type="cartolina" xml:id="cartolina182">
+        <body>
+            <div type="fronte">
+                <figure>
+                    <pb facs="#frontesurface3" n="1" xml:id="frontecartolina3"/>
+                    <figDesc facs="#zona3.1">Una donna legge una lettera alla scrivania</figDesc>
+                    <head>Donna che legge una lettera</head>
+                </figure>
+            </div>
+            <div type="retro">
+                <pb facs="#retrosurface3" n="2" xml:id="retrocartolina3" />
+                <div type="message">
+				<opener> 
+                    <lb facs="#zona3.2" />
+                    <dateline>
+					    <placeName ref="#MO"> Modena<pc type="comma">,</pc></placeName>
+                        <distinct type="forma_desueta">li</distinct>
+					    <date when="1917-11-03">3<pc>/</pc>11<pc>-</pc>17 </date>
+					</dateline>
+					<lb facs="#zona3.3"/>
+                    <salute><persName ref="#OT">Oliva</persName><pc type="comma">,</pc></salute>
+				</opener>
+                    <div xml:id="body_testo">
+                        <p>
+                            <lb facs="#zona3.4" />Soffro orribilmente<pc type="period">.</pc> È un malessere
+                            <lb facs="#zona3.5" />inesplicabile<pc type="period">.</pc> Una intollerabile <w>indif<pc force="inter">-</pc>
+                            <lb facs="#zona3.6" break="no" rend="double stroke" />ferenza</w> verso tutte le cose suscita la mia
+                            <lb facs="#zona3.7" />infelicità e mi rende cattivo<pc type="comma">,</pc> perverso
+                            <lb facs="#zona3.8" />anche agli occhi tuoi<pc type="period">.</pc>
+                            <lb facs="#zona3.9" />Come comunicarti quella tranquillità
+                            <lb facs="#zona3.10" />che manca a me stesso<pc type="interrogative">?</pc>
+                            <lb facs="#zona3.11" />Ora che ti manca quell<pc type="apostrophe">'</pc>aiuto<pc type="comma">,</pc> quel
+                            <lb facs="#zona3.12" />conforto che sempre hai sperato da me
+                            <lb facs="#zona3.13" />tu mi tacci inesorabilmente per <w>carne<pc force="inter">-</pc>
+                            <lb facs="#zona3.14" break="no" rend="double stroke" />fice</w> dell<pc type="apostrophe">'</pc>animo tuo e non fai
+                            <lb facs="#zona3.15" />che aggravare quello stato di cose
+                            <lb facs="#zona3.16" />che pesa miserabilmente sul mio 
+                            <lb facs="#zona3.17" />capo<pc type="period">.</pc> Io non imploro<pc type="comma">,</pc> non <w>preten<pc force="inter">-</pc>
+                            <lb facs="#zona3.18" break="no" rend="double stroke" />do</w><pc type="comma">,</pc> non desidero nulla<pc type="comma">,</pc> soffro solo
+                            <lb facs="#zona3.19" />nell<pc type="apostrophe">'</pc>impotenza di operare secondo
+                            <lb facs="#zona3.20" />i miei fini per amarti come il mio 
+                            <lb facs="#zona3.21" />cuore furiosamente pretende<pc type="period">.</pc>
+                            <lb facs="#zona3.22" />Sono insensato pretendo troppo e
+                            <lb facs="#zona3.23" />amareggio la mia vita<pc type="comma">,</pc> e quel che più
+                            <lb facs="#zona3.24" />mi addolora la tua<pc type="period">.</pc>
+                        </p>
+                    </div>
+				<closer>
+					<signed facs="#zona3.25" rend="underline"><persName ref="#GC">Giovanni</persName></signed>
+				</closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="frontesurface3" start="#frontecartolina3">
+            <graphic url='7694-182F.jpg' width='550px' height='350px' />
+            <zone ulx="3" uly="6" lrx="545" lry="349" rendition="HotSpot" xml:id="zona3.1" />
+        </surface>
+
+        <surface xml:id="retrosurface3" start="#retrocartolina3">
+            <graphic url='7694-182R.jpg' width='350px' height='554px' />
+            <!--data-->
+            <zone ulx="121" uly="4" lrx="322" lry="36" rendition="Line" xml:id="zona3.2" />
+            <!--righe-->
+            <zone ulx="11" uly="16" lrx="120" lry="51" rendition="Line" xml:id="zona3.3" />
+            <zone ulx="7" uly="47" lrx="341" lry="82" rendition="Line" xml:id="zona3.4" />
+            <zone ulx="8" uly="82" lrx="344" lry="107" rendition="Line" xml:id="zona3.5" />
+            <zone ulx="8" uly="107" lrx="348" lry="133" rendition="Line" xml:id="zona3.6" />
+            <zone ulx="5" uly="135" lrx="341" lry="160" rendition="Line" xml:id="zona3.7" />
+            <zone ulx="10" uly="162" lrx="223" lry="180" rendition="Line" xml:id="zona3.8" />
+            <zone ulx="10" uly="184" lrx="346" lry="217" rendition="Line" xml:id="zona3.9" />
+            <zone ulx="8" uly="212" lrx="213" lry="238" rendition="Line" xml:id="zona3.10" />
+            <zone ulx="6" uly="236" lrx="339" lry="260" rendition="Line" xml:id="zona3.11" />
+            <zone ulx="8" uly="258" lrx="340" lry="276" rendition="Line" xml:id="zona3.12" />
+            <zone ulx="6" uly="275" lrx="344" lry="303" rendition="Line" xml:id="zona3.13" />
+            <zone ulx="12" uly="302" lrx="327" lry="326" rendition="Line" xml:id="zona3.14" />
+            <zone ulx="24" uly="324" lrx="336" lry="343" rendition="Line" xml:id="zona3.15" />
+            <zone ulx="4" uly="346" lrx="340" lry="370" rendition="Line" xml:id="zona3.16" />
+            <zone ulx="8" uly="369" lrx="343" lry="391" rendition="Line" xml:id="zona3.17" />
+            <zone ulx="4" uly="395" lrx="341" lry="415" rendition="Line" xml:id="zona3.18" />
+            <zone ulx="6" uly="418" lrx="348" lry="440" rendition="Line" xml:id="zona3.19" />
+            <zone ulx="11" uly="450" lrx="343" lry="478" rendition="Line" xml:id="zona3.20" />
+            <zone ulx="6" uly="481" lrx="296" lry="502" rendition="Line" xml:id="zona3.21" />
+            <zone ulx="5" uly="502" lrx="333" lry="523" rendition="Line" xml:id="zona3.22" />
+            <zone ulx="7" uly="523" lrx="323" lry="540" rendition="Line" xml:id="zona3.23" />
+            <zone ulx="5" uly="541" lrx="204" lry="552" rendition="Line" xml:id="zona3.24"/>
+            <!--firma-->
+            <zone ulx="221" uly="539" lrx="334" lry="551" rendition="Line" xml:id="zona3.25"/>
+        </surface>
+    </facsimile>
+</TEI>

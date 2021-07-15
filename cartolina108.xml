@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina108">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Madre con bambino - Edizione digitale</title>
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <name xml:id="GiC">Giulia Casti</name>
+                    <name xml:id="CT">Claudia Taverriti</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune" xml:id="SP">Comune di La Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Informatica Umanistica, corso di Laurea di Informatica Umanistica, Università di Pisa
+                    <date>2018</date>
+                </edition>
+                
+                <respStmt>
+                    <resp>Codificato da:</resp>
+					<name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Compilatore:</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+					<name ref="#GiC">Giulia Casti</name>
+                    <name ref="#CT">Claudia Taverriti</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="#ES">[Madre con bambino]</title>
+                    <date>1916</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno>7694_108_001/002</idno>
+                    </msIdentifier>
+                  
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>                
+                                <condition>Buona</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+				
+                <listPerson>
+                    <person xml:id="M">
+                        <persName>
+                            <forename>Mario</forename>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+					<place xml:id="MI">
+                        <placeName>Milano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Milano</district>
+                        <district type="provincia">MI</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>                   
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#M">Mario</persName>
+                    <placeName ref="#MI">Milano</placeName>
+                    <date type="writing" when="1916-03-11">11/03/1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna con bambino in braccio. Nella luna si intravede un'ancora</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text type="cartolina" xml:id="cartolina108">
+        <body>
+            <div type="fronte">
+                <pb facs="#frontesurface1" n="1" xml:id="frontecartolina1"/>
+                <figure>
+                    <figDesc facs="#zona1.1">Donna con bambino in braccio. Nella luna si intravede un'ancora</figDesc>
+                    <head>Madre con Bambino</head>
+                </figure>
+            </div>
+            <div type="retro">
+                <pb facs="#retrosurface1" n="2" xml:id="retrocartolina1" />
+                <div type="message" style="writing-mode: vertical-lr; text-orientation: sideways">
+                    <div xml:id="body_testo">
+                        <p>
+                        <lb facs="#zona1.7" /> Saluti cordialissimi a tutti
+                        </p>
+                    </div>
+                    <closer>
+                        <signed facs="#zona1.8"><persName ref="#M">Mario</persName></signed>
+                        <dateline>
+                            <lb facs="#zona1.9" />
+                            <placeName ref="#MI"> Milano</placeName>
+                            <date when="1916-03-11">11<pc>/</pc>3<pc>-</pc>16</date>
+                            <lb facs="#zona1.10" /><placeName type="place" ref="MI">Milano</placeName>
+                            <date when="1916-03-11">11<pc>/</pc>3</date>  
+                            <placeName ref="#RV"> Ravenna</placeName>
+                        </dateline>
+                    </closer>
+                </div>
+                <div type="destination">
+                    <p facs="#zona1.2">
+                        <stamp type="postmark">
+                            <note>Il timbro è illeggibile;</note>
+                        </stamp>
+                        <stamp type="postage" style="transform:rotateZ(180deg)">Francobollo delle Poste Italiane con rappresentata l'effigie di Vittorio Emanuele III volta a sinistra </stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine facs="#zona1.3">Alla <choice><abbr>Gent.</abbr><expan>Gentilissima</expan></choice> Signorina</addrLine>
+                            <addrLine facs="#zona1.4"><persName ref="#OT">Oliva Turtura</persName></addrLine>
+                            <addrLine facs="#zona1.5">Via <choice><abbr>G.</abbr><expan>Girolamo</expan></choice> Rossi <num>58</num></addrLine>
+                            <addrLine facs="#zona1.6"> 
+							    <placeName ref="#RV" rend="underline">Ravenna</placeName>
+                            </addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="frontesurface1" start="#frontecartolina1">
+            <graphic url='7694-108F.jpg' width='350px' height='534px' />
+            <zone ulx="10" uly="12" lrx="345" lry="532" rendition="HotSpot" xml:id="zona1.1" />
+        </surface>
+
+        <surface xml:id="retrosurface1" start="#retrocartolina1">
+            <graphic url='7694-108R.jpg' width='533px' height='350px' />
+            <!--francobollo e timbro-->
+            <zone ulx="421" uly="15" lrx="532" lry="131" rendition="HotSpot" xml:id="zona1.2"/>
+            <!--righe indirizzo-->
+            <zone ulx="278" uly="141" lrx="521" lry="187" rendition="Line" xml:id="zona1.3"/>
+            <zone ulx="271" uly="191" lrx="503" lry="235" rendition="Line" xml:id="zona1.4"/>
+            <zone ulx="276" uly="237" lrx="465" lry="280" rendition="Line" xml:id="zona1.5"/>
+            <zone ulx="326" uly="291" lrx="526" lry="346" rendition="Line" xml:id="zona1.6"/>
+            <!--righe lettera-->
+            <zone ulx="214" uly="9" lrx="256" lry="343" rendition="Line" xml:id="zona1.7"/>
+            <zone ulx="162" uly="27" lrx="215" lry="158" rendition="Line" xml:id="zona1.8"/>
+            <!--data e luogo-->
+            <zone ulx="27" uly="10" lrx="73" lry="161" rendition="Line" xml:id="zona1.9"/>
+            <zone ulx="1" uly="16" lrx="32" lry="318" rendition="Line" xml:id="zona1.10"/>
+        </surface>
+    </facsimile>
+</TEI>
